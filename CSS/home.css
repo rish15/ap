@@ -1,0 +1,245 @@
+/* Banner */
+.jumbo{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding:1rem;
+  margin:0rem;
+  background-color: #194452;
+  color: white;
+  border-bottom: 4px solid black;
+
+}
+@media (max-width: 400px) {
+  .content h1 {                        /*content in the jumbo*/
+  font-size: 20px;
+  text-align: center;
+  font-family: Barlow Condensed;
+  }
+}
+@media (max-width: 400px) {
+  .content p{
+  font-size: 10px;
+  text-align: center;
+  }
+}
+@media (max-width:400px) {
+  .logo img{
+    width: 100px;
+    height: 100px;
+   }
+}
+@media (min-width:400px) {
+  .logo img{
+  width: 160px;
+  height: 160px;
+  }
+}
+.content{
+  width:100%;
+  text-align: center;
+}
+@media (max-width:400px) {
+  .content h1{
+  font-size: 20px;
+  text-align: center;
+
+  }
+}
+@media (min-width:400px) {
+  .content p  {
+  font-size: 30px;
+  text-align: center;
+
+  }
+}
+@media (min-width:400px) {
+  .content h1{
+  font-size: 50px;
+  text-align: center;
+
+  }
+}
+/* CAROUSEL */
+.carousel-inner img {
+  border-top: 4px solid black;
+  width:100%;
+  height:500px;
+  border-bottom:4px solid black;
+
+}
+/* NAVBAR*/
+
+.navbar li{
+  margin-left:35px;
+  font-size: 15px;
+}
+.dropdown-menu .dropdown-item{
+  transition: 0.2s;
+  background: #1A91DA  ;
+  padding:3px;
+}
+
+/* Message from Principal and Director*/
+.message {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  background-color: #342507;
+  color:white;
+}
+.column-1 ,.column-2{
+  margin-left: 1px;
+  padding: 5px;
+  border: 2px solid black;
+}
+.pic-1 img{
+  margin: auto;
+  width:100px;
+  height:100px;
+}
+.column-1 h5{
+width:100%;
+text-align: center;
+}
+/* gallery */
+.heading h4{
+  text-align: center;
+  background-color: grey;
+}
+@media (max-width:400px){
+#carousel-2 .carousel-item img{
+  width:400px;
+  height: 150px;
+  margin: auto;
+  }
+}
+@media (min-width:700px){
+#carousel-1 .carousel-item img{
+  width:700px;
+  height:350px;
+  margin: auto;
+  }
+}
+/* FOOTER */
+footer{
+  background-color:#343A40;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width:400px){
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  }
+}
+@media (min-width:600px){
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  }
+}
+/*.wrapper h6{
+  border-top: 2px solid #FF7F1A;
+  text-align: center;
+  border-bottom: 2px solid #FF7F1A;
+}*/
+@media (min-width:600px){
+  .wrapper h6{
+    border: 2px solid #FF7F1A;
+    margin:10px;
+    text-align: center;
+    border-bottom: 2px solid #FF7F1A;
+  }
+}
+  @media (max-width:400px){
+    .wrapper h6{
+      border-top: 2px solid #FF7F1A;
+      text-align: center;
+      border-bottom: 2px solid #FF7F1A;
+    }
+  }
+    @media (max-width:400px){
+      .wrapper p{
+        margin: 5px;
+      }
+}
+@media (min-width:600px){
+  .appdress, .site-visitors p{
+    margin: 25px;
+  }
+}
+/*footnote*/
+@media (max-width:450px){
+  .footnote{
+    padding: 10px;
+    background-color: #1A1A1A;
+    color: #ffffff;
+  }
+  .links{
+    margin: 0;
+    padding:5px;
+  }
+  .links p{
+    font-size: 10px;
+  }
+  .links li {
+    display: inline;
+  }
+  .links nav li a{
+    font-size: 10px;
+  }
+  nav li a:hover{
+    color:red;
+  }
+  .dev-info p{
+    font-size:13px;
+  }
+}
+@media (min-width:500px){
+  .footnote{
+    padding: 10px;
+    background-color: #1A1A1A ;
+    color: #ffffff;
+  }
+  .links{
+    margin: 0;
+    padding:5px;
+  }
+  .links p{
+    font-size: 15px;
+
+  }
+  .links li {
+    display: inline;
+    float: right;
+  }
+  .links nav li a{
+    font-size: 15px;
+    padding: 2px;
+  }
+  nav li a:hover{
+    color:red;
+  }
+  .dev-info p{
+    font-size:17px;
+  }
+}
+/* MAP*/
+@media (max-width:400px){
+  .college-map #map{
+    margin-left: 5px;
+    height:200px;
+    width: 340px;
+    border:2px black solid;
+  }
+}
+@media (min-width:600px){
+  .college-map #map{
+    margin-left:5px;
+    height:200px;
+    width: 800px;
+    border:2px  solid #FF7F1A;
+  }
+}
