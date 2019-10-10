@@ -128,48 +128,6 @@ footer{
   display: flex;
   flex-direction: column;
 }
-@media (max-width:400px){
-.wrapper{
-  display: flex;
-  flex-direction: column;
-  }
-}
-@media (min-width:600px){
-.wrapper{
-  display: flex;
-  flex-direction: row;
-  }
-}
-/*.wrapper h6{
-  border-top: 2px solid #FF7F1A;
-  text-align: center;
-  border-bottom: 2px solid #FF7F1A;
-}*/
-@media (min-width:600px){
-  .wrapper h6{
-    border: 2px solid #FF7F1A;
-    margin:10px;
-    text-align: center;
-    border-bottom: 2px solid #FF7F1A;
-  }
-}
-  @media (max-width:400px){
-    .wrapper h6{
-      border-top: 2px solid #FF7F1A;
-      text-align: center;
-      border-bottom: 2px solid #FF7F1A;
-    }
-  }
-    @media (max-width:400px){
-      .wrapper p{
-        margin: 5px;
-      }
-}
-@media (min-width:600px){
-  .appdress, .site-visitors p{
-    margin: 25px;
-  }
-}
 /*footnote*/
 @media (max-width:450px){
   .footnote{
@@ -242,4 +200,11 @@ footer{
     width: 800px;
     border:2px  solid #FF7F1A;
   }
+}
+#color{
+  background-color:#1a1a1a;
+  color:white;
+}
+#cardBody{
+  background-color: grey;
 }

@@ -23,7 +23,7 @@
     <!--jumbotron-->
     <div class="jumbo">
       <div class="logo">
-        <img src="RESOURCES/aicteLogo.jpeg" alt="aicteLogo">
+        <img src="RESOURCES/aplogo.jpg" alt="aicteLogo">
       </div>
       <div class="content">
         <h1>AGNEL POLYTECHNIC</h1>
@@ -42,7 +42,7 @@
            <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
          </li>
          <li class="nav-item">
-           <a class="nav-link" href="#">ADMINISTRATION</a>
+           <a class="nav-link" href="http://www.agnelpolytechnic.ac.in/index.html" target="_blank">ADMINISTRATION</a>
          </li>
         <li class="nav-item dropdown">
            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -57,16 +57,9 @@
              <a class="dropdown-item" href="#">MEDICAL ENGINEERING</a> -->
            </div>
          </li>
-         <li class="nav-item dropdown">
-           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-             TRAINING & PLACEMENT
-           </a>
-          <div class="dropdown-menu" < aria-labelledby="navbarDropdown" >
-             <a class="dropdown-item" href="#">one</a>
-             <a class="dropdown-item" href="#">two</a>
-             <a class="dropdown-item" href="#">three</a>
-          </div>
-        </li>
+         <li class="nav-item">
+           <a class="nav-link" href="./HTML/trainingAndPlacement.html">TRAINING AND PLACEMENT</a>
+         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://dte.goa.gov.in/cad2019/dipschedule2019.pdf" target="_blank">ADMISSION</a>
         </li>
@@ -76,19 +69,23 @@
     <div id="slides" class="carousel slide" data-ride="carousel">
         <ul class="carousel-indicators">
           <li data-target="#slides" data-slide-to="0" class="active"></li>
-          <li data-target="#slides" data-slide-to="1"></li>
+          <!-- <li data-target="#slides" data-slide-to="1"></li>
           <li data-target="#slides" data-slide-to="2"></li>
+          <li data-target="#slides" data-slide-to="3"></li> -->
         </ul>
      <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
             <img src="RESOURCES/carousel/colg1.jpg"  alt="background1">
         </div>
-        <div class="carousel-item">
+        <!-- <div class="carousel-item">
           <img src="RESOURCES/carousel/colg2.jpg" alt="background2">
         </div>
         <div class="carousel-item">
           <img src="RESOURCES/carousel/colg3.jpg" alt="background3">
         </div>
+        <div class="carousel-item">
+          <img src="RESOURCES/carousel/colg4.jpg" alt="background4">
+        </div> -->
      </div>
     </div>
 
@@ -101,8 +98,8 @@
           <div class="pic-1">
             <img src="RESOURCES/dummyPic.jpeg" alt="pic">
           </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-            <a class="btn btn-info btn-sm" href="#">Learn more...</a>
+              <p>From the director of Agnel Polytechnic.... I would like to  </p>
+            <a class="btn btn-info btn-sm" href="./HTML/principal.html">Learn more...</a>
         </div>
 
       <div class="column-1">
@@ -110,7 +107,8 @@
         <div class="pic-1">
           <img src="RESOURCES/dummyPic.jpeg" alt="pic">
         </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        <p>Agnel Polytechnic..... where integrated all round development is the focus; aims at nurturing its students into strong and focussed....</p>
+
           <a class="btn btn-info btn-sm" href="#">Learn more...</a>
       </div>
     </div>
@@ -125,24 +123,20 @@
       </div>
 				<div id="carousel-2" class="carousel slide" data-ride="carousel">
 
-					<ul class="carousel-indicators">
+					<!-- <ul class="carousel-indicators">
 						<li data-target="carousel-2" data-slide-to="0" class="active"></li>
 						<li data-target="carousel-2" data-slide-to="1"></li>
 						<li data-target="carousel-2" data-slide-to="2"></li>
-            <li data-target="carousel-2" data-slide-to="3"></li>
-					</ul>
+					</ul> -->
 					<div class="carousel-inner" role="listbox">
 						<div class="carousel-item active">
-              <img src="RESOURCES/collegeTour/tour1.jpg" alt="Los Angeles">
+              <img src="RESOURCES/carousel/colg4.jpg" alt="Los Angeles">
 						</div>
 						<div class="carousel-item">
-              <img src="RESOURCES/collegeTour/tour2.jpg" alt="Los Angeles">
+              <img src="RESOURCES/carousel/colg3.jpg" alt="Los Angeles">
 						</div>
 						<div class="carousel-item">
-              <img src="RESOURCES/collegeTour/tour3.jpg" alt="Los Angeles">
-						</div>
-            <div class="carousel-item">
-              <img src="RESOURCES/collegeTour/tour4.jpg" alt="Los Angeles">
+              <img src="RESOURCES/carousel/colg2.jpg" alt="Los Angeles">
 						</div>
 					</div>
 				</div>
@@ -150,44 +144,19 @@
 
     <!--footer-->
     <br>
-    <footer>
-      <div class="wrapper">
-        <div class="address">
-          <h6>Address</h6>
-          <p>Agnel polytechnic <br>
-             Agnelganv<br>
-             Verna Goa <br>
+    <div class="card text-center">
+        <div class="card-header" id= "color">
+            Address
+        </div>
+      <div class="card-body" id="cardBody">
+        <h5 class="card-title"></h5>
+        <p class="card-text">
+            Agnel polytechnic <br>
+               Agnelganv<br>
+               Verna Goa <br>
           </p>
-
-        </div>
-        <div class="Location">
-            <h6>Location</h6>
-            <div class="college-map">
-              <div id="map"> <!--map id is mandatory--></div>
-
-            <script>
-              function initMap(){
-                var location = {lat:15.329134 , lng:73.933283};
-                var map = new google.maps.Map(document.getElementById("map"),{
-                  zoom:4,
-                  center: location
-                });
-                var marker = new google.maps.Marker({
-                  position: location,
-                  map: map
-              });
-            }
-            </script>
-
-            <script async defer src="https://maps.googleapis.com/maps/api/js?key=
-            AIzaSyBIpM4Kgnutg1PAXMfzjLh_xAb_8SaRy5c&callback=initMap"></script>
-        </div>
       </div>
-        <div class="site-visitors">
-          <h6>Site Visitors</h6>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-        </div>
-      </div>
+    </div>
       <div class="footnote">
           <div class="dev-info">
             <p>Website developed and maintained by Computer Engineering Department Agnel Polytechnic.</p>
@@ -195,9 +164,7 @@
           <div class="links">
             <nav>
               <li><a href="./HTML/contactUs.html">Contact Us |</a></li>
-              <li><a href="#">Site Feedback |</a></li>
               <li><a href="https://github.com/rish15/ap" target="_blank">Source Code |</a></li>
-              <li><a href="#">| Privacy & Copyright |</a></li>
             </nav>
             <p>Agnel Polytechnic  &copy;  2019    All rights reserved</p>
           </div>
